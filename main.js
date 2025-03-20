@@ -5,3 +5,5 @@ const mas = (a, b, c, d) => {
 };
 
 console.log(mas(3, 6, 8, 9));
+
+// ,
