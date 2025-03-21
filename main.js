@@ -1,9 +1,9 @@
+const mas = (arr) => {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum / arr.length;
+}
 
-const mas = (a, b, c, d) => {
-    let sum = a + b + c + d;
-    return sum / mas.length;
-};
-
-console.log(mas(3, 6, 8, 9));
-
-// ,
+console.log(mas([5, 2, 3, 8]));
